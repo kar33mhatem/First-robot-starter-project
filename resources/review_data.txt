@@ -1,0 +1,6 @@
+name John Doe
+email johndoe@example.com
+review Excellent product! Highly recommended.
+name Jane Smith
+email janesmith@example.com
+review Very satisfied with the quality and price.

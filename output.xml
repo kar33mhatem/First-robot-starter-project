@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.4 on win32)" generated="2024-07-01T17:42:44.582265" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Suite" source="D:\pythonProject\TestCases\automationexercise\test_suite.robot">
+<test id="s1-t1" name="Test Case 1: Register User" line="44">
+<kw name="HomePage.Launch Browser">
+<msg time="2024-07-01T17:42:44.903924" level="FAIL">No keyword with name 'HomePage.Launch Browser' found.</msg>
+<status status="FAIL" start="2024-07-01T17:42:44.903924" elapsed="0.000000">No keyword with name 'HomePage.Launch Browser' found.</status>
+</kw>
+<kw name="HomePage.Navigate to URL">
+<arg>${BASE_URL}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:44.908909" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Home Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:44.913897" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click Signup/Login Button">
+<status status="NOT RUN" start="2024-07-01T17:42:44.916890" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Text">
+<arg>New User Signup!</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:44.919881" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Enter Name and Email">
+<arg>Karim Hatem</arg>
+<arg>${EMAIL}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:44.924868" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Click Signup Button">
+<status status="NOT RUN" start="2024-07-01T17:42:44.930854" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Text">
+<arg>Enter Account Information</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:44.933843" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Fill Account Information">
+<arg>Mr.</arg>
+<arg>${PASSWORD}</arg>
+<arg>1</arg>
+<arg>6</arg>
+<arg>2000</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:44.938829" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Fill Mandatory Details">
+<arg>Karim</arg>
+<arg>Hatem</arg>
+<arg>123 Street</arg>
+<arg>5</arg>
+<arg>NasrCity</arg>
+<arg>Cairo</arg>
+<arg>911911</arg>
+<arg>1234567890</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:44.943818" elapsed="0.000999"/>
+</kw>
+<kw name="RegistrationPage.Select Checkboxes">
+<status status="NOT RUN" start="2024-07-01T17:42:44.947806" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Click Create Account Button">
+<status status="NOT RUN" start="2024-07-01T17:42:44.950797" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Verify Account Created">
+<status status="NOT RUN" start="2024-07-01T17:42:44.956782" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click Continue Button">
+<status status="NOT RUN" start="2024-07-01T17:42:44.961772" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Logged in as Username">
+<status status="NOT RUN" start="2024-07-01T17:42:44.966756" elapsed="0.000000"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-07-01T17:42:44.968751" elapsed="0.000000"/>
+</kw>
+<doc>Register a new user on the website.</doc>
+<status status="FAIL" start="2024-07-01T17:42:44.899935" elapsed="0.069813">No keyword with name 'HomePage.Launch Browser' found.</status>
+</test>
+<test id="s1-t2" name="Test Case 4: Logout User" line="65">
+<kw name="HomePage.Launch Browser">
+<msg time="2024-07-01T17:42:44.974744" level="FAIL">No keyword with name 'HomePage.Launch Browser' found.</msg>
+<status status="FAIL" start="2024-07-01T17:42:44.973739" elapsed="0.001005">No keyword with name 'HomePage.Launch Browser' found.</status>
+</kw>
+<kw name="HomePage.Navigate to URL">
+<arg>${BASE_URL}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:44.978725" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Home Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:44.983711" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click Signup/Login Button">
+<status status="NOT RUN" start="2024-07-01T17:42:44.987698" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Text">
+<arg>Login to your account</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:44.990690" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Enter Login Credentials">
+<arg>${EMAIL}</arg>
+<arg>${PASSWORD}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:44.994682" elapsed="0.000997"/>
+</kw>
+<kw name="RegistrationPage.Click Login Button">
+<status status="NOT RUN" start="2024-07-01T17:42:44.999669" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Logged in as Username">
+<status status="NOT RUN" start="2024-07-01T17:42:45.005653" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click Logout Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.010640" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Navigated to Login Page">
+<status status="NOT RUN" start="2024-07-01T17:42:45.014627" elapsed="0.000000"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-07-01T17:42:45.015641" elapsed="0.000000"/>
+</kw>
+<doc>Logout a logged-in user.</doc>
+<status status="FAIL" start="2024-07-01T17:42:44.970747" elapsed="0.045877">No keyword with name 'HomePage.Launch Browser' found.</status>
+</test>
+<test id="s1-t3" name="Test Case 5: Register User with Existing Email" line="78">
+<kw name="HomePage.Launch Browser">
+<msg time="2024-07-01T17:42:45.020611" level="FAIL">No keyword with name 'HomePage.Launch Browser' found.</msg>
+<status status="FAIL" start="2024-07-01T17:42:45.020611" elapsed="0.000000">No keyword with name 'HomePage.Launch Browser' found.</status>
+</kw>
+<kw name="HomePage.Navigate to URL">
+<arg>${BASE_URL}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.023603" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Home Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.026596" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click Signup/Login Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.031583" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Text">
+<arg>New User Signup!</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.036568" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Enter Name and Email">
+<arg>John Doe</arg>
+<arg>${EMAIL}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.044549" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Click Signup Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.047539" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Text">
+<arg>Email Address already exist!</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.051529" elapsed="0.000000"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-07-01T17:42:45.052525" elapsed="0.000000"/>
+</kw>
+<doc>Attempt to register a user with an existing email.</doc>
+<status status="FAIL" start="2024-07-01T17:42:45.017623" elapsed="0.035899">No keyword with name 'HomePage.Launch Browser' found.</status>
+</test>
+<test id="s1-t4" name="Test Case 2: Login User with Correct Email and Password" line="89">
+<kw name="HomePage.Launch Browser">
+<msg time="2024-07-01T17:42:45.057512" level="FAIL">No keyword with name 'HomePage.Launch Browser' found.</msg>
+<status status="FAIL" start="2024-07-01T17:42:45.057512" elapsed="0.000000">No keyword with name 'HomePage.Launch Browser' found.</status>
+</kw>
+<kw name="HomePage.Navigate to URL">
+<arg>${BASE_URL}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.061503" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Home Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.067487" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click Signup/Login Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.073469" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Text">
+<arg>Login to your account</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.078460" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Enter Login Credentials">
+<arg>${EMAIL}</arg>
+<arg>${PASSWORD}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.082446" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Click Login Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.085437" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Logged in as Username">
+<status status="NOT RUN" start="2024-07-01T17:42:45.089427" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click Delete Account Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.094416" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Account Deleted">
+<status status="NOT RUN" start="2024-07-01T17:42:45.102392" elapsed="0.000000"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-07-01T17:42:45.103389" elapsed="0.000000"/>
+</kw>
+<doc>Login with correct credentials.</doc>
+<status status="FAIL" start="2024-07-01T17:42:45.054521" elapsed="0.048868">No keyword with name 'HomePage.Launch Browser' found.</status>
+</test>
+<test id="s1-t5" name="Test Case 3: Login User with Incorrect Email and Password" line="102">
+<kw name="HomePage.Launch Browser">
+<msg time="2024-07-01T17:42:45.107379" level="FAIL">No keyword with name 'HomePage.Launch Browser' found.</msg>
+<status status="FAIL" start="2024-07-01T17:42:45.107379" elapsed="0.000998">No keyword with name 'HomePage.Launch Browser' found.</status>
+</kw>
+<kw name="HomePage.Navigate to URL">
+<arg>${BASE_URL}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.113363" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Home Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.117352" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click Signup/Login Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.120344" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Text">
+<arg>Login to your account</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.124333" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Enter Login Credentials">
+<arg>wrong@companymail.com</arg>
+<arg>wrongpassword</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.128323" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Click Login Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.132317" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Text">
+<arg>Your email or password is incorrect!</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.135304" elapsed="0.000000"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-07-01T17:42:45.135304" elapsed="0.000997"/>
+</kw>
+<doc>Login with incorrect credentials.</doc>
+<status status="FAIL" start="2024-07-01T17:42:45.104387" elapsed="0.031914">No keyword with name 'HomePage.Launch Browser' found.</status>
+</test>
+<test id="s1-t6" name="Test Case 6: Contact Us Form" line="114">
+<kw name="HomePage.Launch Browser">
+<msg time="2024-07-01T17:42:45.145278" level="FAIL">No keyword with name 'HomePage.Launch Browser' found.</msg>
+<status status="FAIL" start="2024-07-01T17:42:45.145278" elapsed="0.000000">No keyword with name 'HomePage.Launch Browser' found.</status>
+</kw>
+<kw name="HomePage.Navigate to URL">
+<arg>${BASE_URL}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.148270" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Home Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.153256" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click Contact Us Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.156248" elapsed="0.000998"/>
+</kw>
+<kw name="HomePage.Verify Text">
+<arg>Get In Touch</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.159239" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Fill Contact Us Form">
+<arg>John Doe</arg>
+<arg>${EMAIL}</arg>
+<arg>Test Subject</arg>
+<arg>Test Message</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.164238" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Upload File">
+<arg>D:\\pythonProject\\resources\\uploadfile.pdf</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.169213" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Click Submit Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.173203" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Click OK Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.180184" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Text">
+<arg>Success! Your details have been submitted successfully.</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.183176" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click Home Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.186168" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Home Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.190158" elapsed="0.000000"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-07-01T17:42:45.190158" elapsed="0.000999"/>
+</kw>
+<doc>Submit the Contact Us form.</doc>
+<status status="FAIL" start="2024-07-01T17:42:45.137298" elapsed="0.053859">No keyword with name 'HomePage.Launch Browser' found.</status>
+</test>
+<test id="s1-t7" name="Test Case 9: Search Product" line="132">
+<kw name="HomePage.Launch Browser">
+<msg time="2024-07-01T17:42:45.196142" level="FAIL">No keyword with name 'HomePage.Launch Browser' found.</msg>
+<status status="FAIL" start="2024-07-01T17:42:45.196142" elapsed="0.000000">No keyword with name 'HomePage.Launch Browser' found.</status>
+</kw>
+<kw name="HomePage.Navigate to URL">
+<arg>${BASE_URL}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.202126" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Home Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.208109" elapsed="0.000000"/>
+</kw>
+<kw name="ProductPage.Click Products Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.213096" elapsed="0.000000"/>
+</kw>
+<kw name="ProductPage.Verify All Products Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.216087" elapsed="0.000000"/>
+</kw>
+<kw name="ProductPage.Search Product">
+<arg>${PRODUCT_NAME}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.221075" elapsed="0.000000"/>
+</kw>
+<kw name="ProductPage.Verify Searched Products Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.226061" elapsed="0.000000"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-07-01T17:42:45.227060" elapsed="0.000000"/>
+</kw>
+<doc>Search for a product.</doc>
+<status status="FAIL" start="2024-07-01T17:42:45.192153" elapsed="0.034907">No keyword with name 'HomePage.Launch Browser' found.</status>
+</test>
+<test id="s1-t8" name="Test Case 12: Add Products in Cart" line="142">
+<kw name="HomePage.Launch Browser">
+<msg time="2024-07-01T17:42:45.235038" level="FAIL">No keyword with name 'HomePage.Launch Browser' found.</msg>
+<status status="FAIL" start="2024-07-01T17:42:45.235038" elapsed="0.000000">No keyword with name 'HomePage.Launch Browser' found.</status>
+</kw>
+<kw name="HomePage.Navigate to URL">
+<arg>${BASE_URL}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.239029" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Home Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.245011" elapsed="0.000000"/>
+</kw>
+<kw name="ProductPage.Click Products Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.248999" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Add Product To Cart">
+<arg>${PRODUCT_Index1}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.255982" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-07-01T17:42:45.256979" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Click Continue Shopping Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.261966" elapsed="0.000998"/>
+</kw>
+<kw name="CartPage.Add Product To Cart">
+<arg>${PRODUCT_Index2}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.265955" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-07-01T17:42:45.266961" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Click View Cart Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.270958" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Verify Product in Cart">
+<arg>${PRODUCT_NAME_1}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.275930" elapsed="0.000997"/>
+</kw>
+<kw name="CartPage.Verify Product in Cart">
+<arg>${PRODUCT_NAME_2}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.279917" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Verify Product Quantity and Price">
+<arg>${PRODUCT_NAME_1}</arg>
+<arg>${EXPECTED_QUANTITY_1}</arg>
+<arg>${EXPECTED_PRICE_1}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.284904" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Verify Product Quantity and Price">
+<arg>${PRODUCT_NAME_2}</arg>
+<arg>${EXPECTED_QUANTITY_2}</arg>
+<arg>${EXPECTED_PRICE_2}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.288893" elapsed="0.000000"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-07-01T17:42:45.289903" elapsed="0.000000"/>
+</kw>
+<doc>Add multiple products to the cart.</doc>
+<status status="FAIL" start="2024-07-01T17:42:45.229054" elapsed="0.060849">No keyword with name 'HomePage.Launch Browser' found.</status>
+</test>
+<test id="s1-t9" name="Test Case 13: Verify Product Quantity in Cart" line="159">
+<kw name="HomePage.Launch Browser">
+<msg time="2024-07-01T17:42:45.294877" level="FAIL">No keyword with name 'HomePage.Launch Browser' found.</msg>
+<status status="FAIL" start="2024-07-01T17:42:45.294877" elapsed="0.000000">No keyword with name 'HomePage.Launch Browser' found.</status>
+</kw>
+<kw name="HomePage.Navigate to URL">
+<arg>${BASE_URL}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.298868" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Home Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.304851" elapsed="0.000999"/>
+</kw>
+<kw name="ProductPage.Click View Product Button">
+<arg>xpath=(//a[contains(text(),'View Product')])[${PRODUCT_Index1}]</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.312832" elapsed="0.000000"/>
+</kw>
+<kw name="ProductPage.Verify Product Detail Opened">
+<status status="NOT RUN" start="2024-07-01T17:42:45.315821" elapsed="0.000000"/>
+</kw>
+<kw name="ProductPage.Increase Quantity">
+<arg>${PRODUCT_QTY}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.319810" elapsed="0.000000"/>
+</kw>
+<kw name="ProductPage.Click Add to Cart Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.323802" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Click View Cart Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.327789" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Verify Product Quantity">
+<arg>${PRODUCT_NAME_1}</arg>
+<arg>${PRODUCT_QTY}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.332777" elapsed="0.000000"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-07-01T17:42:45.333774" elapsed="0.000000"/>
+</kw>
+<doc>Verify the product quantity in the cart.</doc>
+<status status="FAIL" start="2024-07-01T17:42:45.291887" elapsed="0.042893">No keyword with name 'HomePage.Launch Browser' found.</status>
+</test>
+<test id="s1-t10" name="Test Case 14: Place Order: Register while Checkout" line="171">
+<kw name="HomePage.Launch Browser">
+<msg time="2024-07-01T17:42:45.338761" level="FAIL">No keyword with name 'HomePage.Launch Browser' found.</msg>
+<status status="FAIL" start="2024-07-01T17:42:45.338761" elapsed="0.000000">No keyword with name 'HomePage.Launch Browser' found.</status>
+</kw>
+<kw name="HomePage.Navigate to URL">
+<arg>${BASE_URL}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.342749" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Home Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.346739" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Add Product To Cart">
+<arg>${PRODUCT_Index1}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.350730" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Click View Cart Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.354717" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Verify Cart Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.357708" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Click Proceed To Checkout">
+<status status="NOT RUN" start="2024-07-01T17:42:45.361700" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click Register/Login Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.367684" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Text">
+<arg>New User Signup!</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.371673" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Enter Name and Email">
+<arg>John Doe</arg>
+<arg>${EMAIL}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.376660" elapsed="0.000999"/>
+</kw>
+<kw name="RegistrationPage.Click Signup Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.380647" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Text">
+<arg>Enter Account Information</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.383639" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Fill Account Information">
+<arg>Mr.</arg>
+<arg>${PASSWORD}</arg>
+<arg>1</arg>
+<arg>6</arg>
+<arg>2000</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.388627" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Fill Mandatory Details">
+<arg>John</arg>
+<arg>Doe</arg>
+<arg>123 Street</arg>
+<arg>5</arg>
+<arg>California</arg>
+<arg>Los Angeles</arg>
+<arg>90001</arg>
+<arg>1234567890</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.392616" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Select Checkboxes">
+<status status="NOT RUN" start="2024-07-01T17:42:45.399598" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Click Create Account Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.402592" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Verify Account Created">
+<status status="NOT RUN" start="2024-07-01T17:42:45.408573" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click Continue Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.413560" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Logged in as Username">
+<status status="NOT RUN" start="2024-07-01T17:42:45.418547" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click View Cart Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.421538" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Verify Cart Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.424530" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Click Proceed To Checkout">
+<status status="NOT RUN" start="2024-07-01T17:42:45.430516" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Verify Checkout Page">
+<status status="NOT RUN" start="2024-07-01T17:42:45.437498" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Press Place Order">
+<status status="NOT RUN" start="2024-07-01T17:42:45.441485" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Verify Payment Page">
+<status status="NOT RUN" start="2024-07-01T17:42:45.447469" elapsed="0.000997"/>
+</kw>
+<kw name="CheckoutPage.Enter Payment Details">
+<arg>John Doe</arg>
+<arg>4111111111111111</arg>
+<arg>123</arg>
+<arg>12</arg>
+<arg>2029</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.452456" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Click Pay and Confirm Order">
+<status status="NOT RUN" start="2024-07-01T17:42:45.457443" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Verify Order Placed">
+<status status="NOT RUN" start="2024-07-01T17:42:45.464426" elapsed="0.000998"/>
+</kw>
+<kw name="HomePage.Click Delete Account Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.469411" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Account Deleted">
+<status status="NOT RUN" start="2024-07-01T17:42:45.477392" elapsed="0.001003"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-07-01T17:42:45.480383" elapsed="0.000526"/>
+</kw>
+<doc>Place an order by registering during checkout.</doc>
+<status status="FAIL" start="2024-07-01T17:42:45.335769" elapsed="0.146128">No keyword with name 'HomePage.Launch Browser' found.</status>
+</test>
+<test id="s1-t11" name="Test Case 17: Remove Products From Cart" line="205">
+<kw name="HomePage.Launch Browser">
+<msg time="2024-07-01T17:42:45.485885" level="FAIL">No keyword with name 'HomePage.Launch Browser' found.</msg>
+<status status="FAIL" start="2024-07-01T17:42:45.485885" elapsed="0.000000">No keyword with name 'HomePage.Launch Browser' found.</status>
+</kw>
+<kw name="HomePage.Navigate to URL">
+<arg>${BASE_URL}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.488877" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Home Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.493866" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Add Product To Cart">
+<arg>${PRODUCT_Index1}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.499853" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Click View Cart Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.503839" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Verify Cart Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.508824" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Click Remove Product Button">
+<arg>xpath=//a[contains(@class,'cart_quantity_delete')]</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.514807" elapsed="0.000998"/>
+</kw>
+<kw name="CartPage.Verify Product Removed">
+<arg>${PRODUCT_NAME_1}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.519795" elapsed="0.000000"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-07-01T17:42:45.520793" elapsed="0.000000"/>
+</kw>
+<doc>Remove products from the cart.</doc>
+<status status="FAIL" start="2024-07-01T17:42:45.482894" elapsed="0.038909">No keyword with name 'HomePage.Launch Browser' found.</status>
+</test>
+<test id="s1-t12" name="Test Case 18: View Category Products" line="216">
+<kw name="HomePage.Launch Browser">
+<msg time="2024-07-01T17:42:45.527777" level="FAIL">No keyword with name 'HomePage.Launch Browser' found.</msg>
+<status status="FAIL" start="2024-07-01T17:42:45.527777" elapsed="0.000000">No keyword with name 'HomePage.Launch Browser' found.</status>
+</kw>
+<kw name="HomePage.Navigate to URL">
+<arg>${BASE_URL}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.533758" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Home Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.537747" elapsed="0.000000"/>
+</kw>
+<kw name="ProductPage.Verify Categories Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.541736" elapsed="0.000000"/>
+</kw>
+<kw name="ProductPage.Click Category">
+<arg>${category_name}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.548718" elapsed="0.000000"/>
+</kw>
+<kw name="ProductPage.Click Sub-Category">
+<arg>${subcategory_name}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.554702" elapsed="0.000000"/>
+</kw>
+<kw name="ProductPage.Verify Category Page">
+<arg>${category_name}</arg>
+<arg>${subcategory_name}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.558691" elapsed="0.000000"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-07-01T17:42:45.559687" elapsed="0.000000"/>
+</kw>
+<doc>View products by category.</doc>
+<status status="FAIL" start="2024-07-01T17:42:45.522787" elapsed="0.037900">No keyword with name 'HomePage.Launch Browser' found.</status>
+</test>
+<test id="s1-t13" name="Test Case 19: View &amp; Cart Brand Products" line="227">
+<kw name="HomePage.Launch Browser">
+<msg time="2024-07-01T17:42:45.571656" level="FAIL">No keyword with name 'HomePage.Launch Browser' found.</msg>
+<status status="FAIL" start="2024-07-01T17:42:45.571656" elapsed="0.000000">No keyword with name 'HomePage.Launch Browser' found.</status>
+</kw>
+<kw name="HomePage.Navigate to URL">
+<arg>${BASE_URL}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.580633" elapsed="0.000000"/>
+</kw>
+<kw name="ProductPage.Click Products Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.586618" elapsed="0.000000"/>
+</kw>
+<kw name="ProductPage.Verify Brands Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.590605" elapsed="0.000000"/>
+</kw>
+<kw name="ProductPage.Click Brand">
+<arg>${brand_name}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.597589" elapsed="0.000998"/>
+</kw>
+<kw name="ProductPage.Verify Brand Page">
+<arg>${brand_name}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.603570" elapsed="0.000000"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-07-01T17:42:45.604568" elapsed="0.000000"/>
+</kw>
+<doc>View and cart products by brand.</doc>
+<status status="FAIL" start="2024-07-01T17:42:45.562684" elapsed="0.041884">No keyword with name 'HomePage.Launch Browser' found.</status>
+</test>
+<test id="s1-t14" name="Test Case 21: Add Review on Product" line="237">
+<kw name="HomePage.Launch Browser">
+<msg time="2024-07-01T17:42:45.617533" level="FAIL">No keyword with name 'HomePage.Launch Browser' found.</msg>
+<status status="FAIL" start="2024-07-01T17:42:45.617533" elapsed="0.000000">No keyword with name 'HomePage.Launch Browser' found.</status>
+</kw>
+<kw name="HomePage.Navigate to URL">
+<arg>${BASE_URL}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.621522" elapsed="0.000000"/>
+</kw>
+<kw name="ProductPage.Click Products Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.630500" elapsed="0.000000"/>
+</kw>
+<kw name="ProductPage.Verify All Products Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.638479" elapsed="0.000000"/>
+</kw>
+<kw name="ProductPage.Click View Product Button">
+<arg>${PRODUCT_Index1}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.650447" elapsed="0.000000"/>
+</kw>
+<kw name="ProductPage.Verify Write Your Review Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.656429" elapsed="0.000000"/>
+</kw>
+<kw name="ProductPage.Enter Review Details">
+<arg>John Doe</arg>
+<arg>${EMAIL}</arg>
+<arg>Great product!</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.663412" elapsed="0.000000"/>
+</kw>
+<kw name="ProductPage.Click Submit Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.667400" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Text">
+<arg>${thanksfortext}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.671391" elapsed="0.000000"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-07-01T17:42:45.672386" elapsed="0.000000"/>
+</kw>
+<doc>Add a review on a product.</doc>
+<status status="FAIL" start="2024-07-01T17:42:45.612547" elapsed="0.059839">No keyword with name 'HomePage.Launch Browser' found.</status>
+</test>
+<test id="s1-t15" name="Test Case 23: Verify Address Details in Checkout Page" line="249">
+<kw name="HomePage.Launch Browser">
+<msg time="2024-07-01T17:42:45.679370" level="FAIL">No keyword with name 'HomePage.Launch Browser' found.</msg>
+<status status="FAIL" start="2024-07-01T17:42:45.679370" elapsed="0.000000">No keyword with name 'HomePage.Launch Browser' found.</status>
+</kw>
+<kw name="HomePage.Navigate to URL">
+<arg>${BASE_URL}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.683356" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Home Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.686348" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Add Product To Cart">
+<arg>${PRODUCT_Index1}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.690337" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Click View Cart Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.695325" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Verify Cart Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.704302" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Click Proceed To Checkout">
+<status status="NOT RUN" start="2024-07-01T17:42:45.711285" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click Register/Login Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.716269" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Text">
+<arg>New User Signup!</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.720259" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Enter Name and Email">
+<arg>John Doe</arg>
+<arg>${EMAIL}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.723250" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Click Signup Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.729235" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Text">
+<arg>Enter Account Information</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.734230" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Fill Account Information">
+<arg>Mr.</arg>
+<arg>${PASSWORD}</arg>
+<arg>1</arg>
+<arg>6</arg>
+<arg>2000</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.739207" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Fill Mandatory Details">
+<arg>John</arg>
+<arg>Doe</arg>
+<arg>123 Street</arg>
+<arg>5</arg>
+<arg>California</arg>
+<arg>Los Angeles</arg>
+<arg>90001</arg>
+<arg>1234567890</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.746191" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Select Checkboxes">
+<status status="NOT RUN" start="2024-07-01T17:42:45.751176" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Click Create Account Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.755164" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Verify Account Created">
+<status status="NOT RUN" start="2024-07-01T17:42:45.758156" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click Continue Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.763148" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Logged in as Username">
+<status status="NOT RUN" start="2024-07-01T17:42:45.768130" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click View Cart Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.773116" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Verify Cart Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.779102" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Click Proceed To Checkout">
+<status status="NOT RUN" start="2024-07-01T17:42:45.783090" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Verify Checkout Page">
+<status status="NOT RUN" start="2024-07-01T17:42:45.787082" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Verify Delivery Address">
+<arg>Mr. John Doe</arg>
+<arg>123 Street</arg>
+<arg>Los Angeles</arg>
+<arg>California</arg>
+<arg>90001</arg>
+<arg>New Zealand</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.792067" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Verify Billing Address">
+<arg>Mr. John Doe</arg>
+<arg>123 Street</arg>
+<arg>Los Angeles</arg>
+<arg>California</arg>
+<arg>90001</arg>
+<arg>New Zealand</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.797056" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click Delete Account Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.802039" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Account Deleted">
+<status status="NOT RUN" start="2024-07-01T17:42:45.807027" elapsed="0.000000"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-07-01T17:42:45.808026" elapsed="0.000000"/>
+</kw>
+<doc>Verify address details during checkout.</doc>
+<status status="FAIL" start="2024-07-01T17:42:45.674383" elapsed="0.133643">No keyword with name 'HomePage.Launch Browser' found.</status>
+</test>
+<test id="s1-t16" name="Test Case 24: Download Invoice after Purchase Order" line="279">
+<kw name="HomePage.Launch Browser">
+<msg time="2024-07-01T17:42:45.816002" level="FAIL">No keyword with name 'HomePage.Launch Browser' found.</msg>
+<status status="FAIL" start="2024-07-01T17:42:45.816002" elapsed="0.000997">No keyword with name 'HomePage.Launch Browser' found.</status>
+</kw>
+<kw name="HomePage.Navigate to URL">
+<arg>${BASE_URL}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.818993" elapsed="0.000998"/>
+</kw>
+<kw name="HomePage.Verify Home Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.824979" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Add Product To Cart">
+<arg>${PRODUCT_Index1}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.830963" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Click View Cart Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.835949" elapsed="0.000000"/>
+</kw>
+<kw name="CartPage.Verify Cart Page is Visible">
+<status status="NOT RUN" start="2024-07-01T17:42:45.840936" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Click Proceed To Checkout">
+<status status="NOT RUN" start="2024-07-01T17:42:45.846920" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click Register/Login Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.850908" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Text">
+<arg>New User Signup!</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.854898" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Enter Name and Email">
+<arg>John Doe</arg>
+<arg>${EMAIL}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.859886" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Click Signup Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.866868" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Text">
+<arg>Enter Account Information</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.870856" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Fill Account Information">
+<arg>Mr.</arg>
+<arg>${PASSWORD}</arg>
+<arg>1</arg>
+<arg>6</arg>
+<arg>2000</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.880830" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Fill Mandatory Details">
+<arg>Kimo</arg>
+<arg>Smsm</arg>
+<arg>123 Street</arg>
+<arg>5</arg>
+<arg>October</arg>
+<arg>MotherofWorld</arg>
+<arg>90001</arg>
+<arg>1234567890</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.885817" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Select Checkboxes">
+<status status="NOT RUN" start="2024-07-01T17:42:45.891799" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Click Create Account Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.900776" elapsed="0.000000"/>
+</kw>
+<kw name="RegistrationPage.Verify Account Created">
+<status status="NOT RUN" start="2024-07-01T17:42:45.906760" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click Continue Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.912744" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Logged in as Username">
+<status status="NOT RUN" start="2024-07-01T17:42:45.921722" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click View Cart Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.925708" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Click Proceed To Checkout">
+<status status="NOT RUN" start="2024-07-01T17:42:45.934686" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Verify Address Details and Review Order">
+<status status="NOT RUN" start="2024-07-01T17:42:45.938674" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Enter Order Comments">
+<arg>${comments}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.945656" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Press Place Order">
+<status status="NOT RUN" start="2024-07-01T17:42:45.953634" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Verify Payment Page">
+<status status="NOT RUN" start="2024-07-01T17:42:45.958620" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Enter Payment Details">
+<arg>Kimo</arg>
+<arg>SmsmVisa</arg>
+<arg>4111111111111111</arg>
+<arg>123</arg>
+<arg>12</arg>
+<arg>2029</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.969593" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Click Pay and Confirm Order">
+<status status="NOT RUN" start="2024-07-01T17:42:45.973580" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Verify Order Placed">
+<status status="NOT RUN" start="2024-07-01T17:42:45.978574" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Click Download Invoice">
+<status status="NOT RUN" start="2024-07-01T17:42:45.983567" elapsed="0.000000"/>
+</kw>
+<kw name="CheckoutPage.Verify Invoice Downloaded">
+<arg>${DOWNLOAD_FOLDER}</arg>
+<arg>${EXPECTED_INVOICE_NAME}</arg>
+<status status="NOT RUN" start="2024-07-01T17:42:45.987053" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click Continue Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.990045" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Click Delete Account Button">
+<status status="NOT RUN" start="2024-07-01T17:42:45.996032" elapsed="0.000000"/>
+</kw>
+<kw name="HomePage.Verify Account Deleted">
+<status status="NOT RUN" start="2024-07-01T17:42:46.002013" elapsed="0.000000"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-07-01T17:42:46.003011" elapsed="0.000000"/>
+</kw>
+<doc>Download the invoice after placing an order.</doc>
+<status status="FAIL" start="2024-07-01T17:42:45.812015" elapsed="0.190996">No keyword with name 'HomePage.Launch Browser' found.</status>
+</test>
+<kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-07-01T17:42:46.005008" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-07-01T17:42:44.585257" elapsed="1.419751"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="16" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="16" skip="0" id="s1" name="Test Suite">Test Suite</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-07-01T17:42:44.868011" level="ERROR">Error in file 'D:\pythonProject\TestCases\automationexercise\test_suite.robot' on line 4: Resource file '..\TestCases\resources\HomePage.resource' does not exist.</msg>
+<msg time="2024-07-01T17:42:44.870007" level="ERROR">Error in file 'D:\pythonProject\TestCases\automationexercise\test_suite.robot' on line 5: Resource file '..\TestCases\resources\ProductPage.resource' does not exist.</msg>
+<msg time="2024-07-01T17:42:44.871003" level="ERROR">Error in file 'D:\pythonProject\TestCases\automationexercise\test_suite.robot' on line 7: Resource file '..\TestCases\resources\RegistrationPage.resource' does not exist.</msg>
+<msg time="2024-07-01T17:42:44.872997" level="ERROR">Error in file 'D:\pythonProject\TestCases\automationexercise\test_suite.robot' on line 8: Resource file '..\TestCases\resources\CartPage.resource' does not exist.</msg>
+<msg time="2024-07-01T17:42:44.873995" level="ERROR">Error in file 'D:\pythonProject\TestCases\automationexercise\test_suite.robot' on line 9: Resource file '..\TestCases\resources\CheckoutPage.resource' does not exist.</msg>
+</errors>
+</robot>
