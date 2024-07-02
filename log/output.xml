@@ -1,187 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.12.4 on win32)" generated="2024-07-01T17:51:32.546945" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0 (Python 3.12.4 on win32)" generated="2024-07-02T09:35:31.659597" rpa="false" schemaversion="5">
 <suite id="s1" name="Test Suite" source="D:\pythonProject\TestCases\automationexercise\test_suite.robot">
 <test id="s1-t1" name="Test Case 6: Contact Us Form" line="114">
 <kw name="HomePage.Launch Browser" owner="HomePage">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-07-01T17:51:34.028605" level="INFO">Opening browser 'chrome' to base url 'https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm'.</msg>
+<msg time="2024-07-02T09:35:32.332795" level="INFO">Opening browser 'chrome' to base url 'https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm'.</msg>
 <arg>${EXTENSION URL}</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-07-01T17:51:34.027608" elapsed="7.274966"/>
+<status status="PASS" start="2024-07-02T09:35:32.332795" elapsed="4.761090"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2024-07-01T17:51:41.303571" elapsed="0.205123"/>
+<status status="PASS" start="2024-07-02T09:35:37.094882" elapsed="3.115313"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-07-01T17:51:41.509692" level="INFO">Clicking element '//*[contains(text(), "Add to Chrome")]'.</msg>
+<msg time="2024-07-02T09:35:40.211193" level="INFO">Clicking element '//*[contains(text(), "Add to Chrome")]'.</msg>
 <arg>${EXT INSTALL BTN}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-07-01T17:51:41.508694" elapsed="0.146638"/>
+<status status="PASS" start="2024-07-02T09:35:40.210195" elapsed="0.116748"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-07-01T17:52:11.656836" level="INFO">Slept 30 seconds.</msg>
+<msg time="2024-07-02T09:36:10.327160" level="INFO">Slept 30 seconds.</msg>
 <arg>30 sec</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-07-01T17:51:41.655332" elapsed="30.001504"/>
+<status status="PASS" start="2024-07-02T09:35:40.326943" elapsed="30.000217"/>
 </kw>
 <doc>Launch the browser and open the application.</doc>
-<status status="PASS" start="2024-07-01T17:51:34.025614" elapsed="37.631222"/>
+<status status="PASS" start="2024-07-02T09:35:32.330800" elapsed="37.997365"/>
 </kw>
 <kw name="HomePage.Navigate to URL" owner="HomePage">
 <kw name="Go To" owner="SeleniumLibrary">
-<msg time="2024-07-01T17:52:11.657811" level="INFO">Opening url 'http://automationexercise.com'</msg>
+<msg time="2024-07-02T09:36:10.330150" level="INFO">Opening url 'http://automationexercise.com'</msg>
 <arg>${url}</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<status status="PASS" start="2024-07-01T17:52:11.657811" elapsed="7.995978"/>
+<status status="PASS" start="2024-07-02T09:36:10.329185" elapsed="12.278215"/>
 </kw>
 <arg>${BASE_URL}</arg>
-<status status="PASS" start="2024-07-01T17:52:11.656836" elapsed="7.997950"/>
+<status status="PASS" start="2024-07-02T09:36:10.328165" elapsed="12.279235"/>
 </kw>
 <kw name="HomePage.Verify Home Page is Visible" owner="HomePage">
 <kw name="Title Should Be" owner="SeleniumLibrary">
-<msg time="2024-07-01T17:52:19.667751" level="INFO">Page title is 'Automation Exercise'.</msg>
+<msg time="2024-07-02T09:36:22.629340" level="INFO">Page title is 'Automation Exercise'.</msg>
 <arg>${HOMEPAGE_TITLE}</arg>
 <doc>Verifies that the current page title equals ``title``.</doc>
-<status status="PASS" start="2024-07-01T17:52:19.655783" elapsed="0.012966"/>
+<status status="PASS" start="2024-07-02T09:36:22.610397" elapsed="0.019940"/>
 </kw>
-<status status="PASS" start="2024-07-01T17:52:19.655783" elapsed="0.012966"/>
+<status status="PASS" start="2024-07-02T09:36:22.608397" elapsed="0.021940"/>
 </kw>
 <kw name="HomePage.Click Contact Us Button" owner="HomePage">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-07-01T17:52:19.670743" level="INFO">Clicking element 'xpath=//a[contains(text(),'Contact us')]'.</msg>
+<msg time="2024-07-02T09:36:22.633330" level="INFO">Clicking element 'xpath=//a[contains(text(),'Contact us')]'.</msg>
 <arg>xpath=//a[contains(text(),'Contact us')]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-07-01T17:52:19.669745" elapsed="1.652435"/>
+<status status="PASS" start="2024-07-02T09:36:22.632334" elapsed="2.723813"/>
 </kw>
-<status status="PASS" start="2024-07-01T17:52:19.669745" elapsed="1.652435"/>
+<status status="PASS" start="2024-07-02T09:36:22.631335" elapsed="2.724812"/>
 </kw>
 <kw name="HomePage.Verify Text" owner="HomePage">
 <kw name="Page Should Contain" owner="SeleniumLibrary">
-<msg time="2024-07-01T17:52:21.355092" level="INFO">Current page contains text 'Get In Touch'.</msg>
+<msg time="2024-07-02T09:36:25.392051" level="INFO">Current page contains text 'Get In Touch'.</msg>
 <arg>${thanksfortext}</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<status status="PASS" start="2024-07-01T17:52:21.323176" elapsed="0.031916"/>
+<status status="PASS" start="2024-07-02T09:36:25.358140" elapsed="0.034907"/>
 </kw>
 <arg>Get In Touch</arg>
-<status status="PASS" start="2024-07-01T17:52:21.323176" elapsed="0.031916"/>
+<status status="PASS" start="2024-07-02T09:36:25.357143" elapsed="0.036900"/>
 </kw>
 <kw name="RegistrationPage.Fill Contact Us Form" owner="RegistrationPage">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-07-01T17:52:21.357085" level="INFO">Typing text 'John Doe' into text field 'name=name'.</msg>
+<msg time="2024-07-02T09:36:25.396038" level="INFO">Typing text 'John Doe' into text field 'name=name'.</msg>
 <arg>name=name</arg>
 <arg>${name}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-07-01T17:52:21.356088" elapsed="0.167553"/>
+<status status="PASS" start="2024-07-02T09:36:25.395042" elapsed="0.169548"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-07-01T17:52:21.523641" level="INFO">Typing text 'randomtestkarim45@mailinator.com' into text field 'name=email'.</msg>
+<msg time="2024-07-02T09:36:25.565586" level="INFO">Typing text 'randomtestkarim45@mailinator.com' into text field 'name=email'.</msg>
 <arg>name=email</arg>
 <arg>${email}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-07-01T17:52:21.523641" elapsed="0.311167"/>
+<status status="PASS" start="2024-07-02T09:36:25.565586" elapsed="0.227391"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-07-01T17:52:21.835804" level="INFO">Typing text 'Test Subject' into text field 'name=subject'.</msg>
+<msg time="2024-07-02T09:36:25.794973" level="INFO">Typing text 'Test Subject' into text field 'name=subject'.</msg>
 <arg>name=subject</arg>
 <arg>${subject}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-07-01T17:52:21.835804" elapsed="0.132646"/>
+<status status="PASS" start="2024-07-02T09:36:25.793974" elapsed="0.215454"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-07-01T17:52:21.969447" level="INFO">Typing text 'Test Message' into text field 'name=message'.</msg>
+<msg time="2024-07-02T09:36:26.011426" level="INFO">Typing text 'Test Message' into text field 'name=message'.</msg>
 <arg>name=message</arg>
 <arg>${message}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-07-01T17:52:21.968450" elapsed="0.100731"/>
+<status status="PASS" start="2024-07-02T09:36:26.010427" elapsed="0.188494"/>
 </kw>
 <arg>John Doe</arg>
 <arg>${EMAIL}</arg>
 <arg>Test Subject</arg>
 <arg>Test Message</arg>
-<status status="PASS" start="2024-07-01T17:52:21.355092" elapsed="0.714089"/>
+<status status="PASS" start="2024-07-02T09:36:25.394043" elapsed="0.804878"/>
 </kw>
 <kw name="RegistrationPage.Upload File" owner="RegistrationPage">
 <kw name="Choose File" owner="SeleniumLibrary">
-<msg time="2024-07-01T17:52:22.071176" level="INFO">Sending D:\pythonProject\resources\uploadfile.pdf to browser.</msg>
+<msg time="2024-07-02T09:36:26.200916" level="INFO">Sending D:\pythonProject\resources\uploadfile.pdf to browser.</msg>
 <arg>name=upload_file</arg>
 <arg>${file_path}</arg>
 <doc>Inputs the ``file_path`` into the file input field ``locator``.</doc>
-<status status="PASS" start="2024-07-01T17:52:22.070178" elapsed="0.041888"/>
+<status status="PASS" start="2024-07-02T09:36:26.200916" elapsed="0.085771"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-07-01T17:52:32.112803" level="INFO">Slept 10 seconds.</msg>
+<msg time="2024-07-02T09:36:36.288538" level="INFO">Slept 10 seconds.</msg>
 <arg>10s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-07-01T17:52:22.112066" elapsed="10.000737"/>
+<status status="PASS" start="2024-07-02T09:36:26.286687" elapsed="10.001851"/>
 </kw>
 <arg>D:\\pythonProject\\resources\\uploadfile.pdf</arg>
-<status status="PASS" start="2024-07-01T17:52:22.070178" elapsed="10.042625"/>
+<status status="PASS" start="2024-07-02T09:36:26.199920" elapsed="10.089615"/>
 </kw>
 <kw name="RegistrationPage.Click Submit Button" owner="RegistrationPage">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-07-01T17:52:32.113799" level="INFO">Clicking element 'xpath=//input[@type='submit']'.</msg>
+<msg time="2024-07-02T09:36:36.292527" level="INFO">Clicking element 'xpath=//input[@type='submit']'.</msg>
 <arg>xpath=//input[@type='submit']</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-07-01T17:52:32.113799" elapsed="0.070809"/>
+<status status="PASS" start="2024-07-02T09:36:36.291529" elapsed="0.239361"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-07-01T17:52:42.186276" level="INFO">Slept 10 seconds.</msg>
+<msg time="2024-07-02T09:36:46.531289" level="INFO">Slept 10 seconds.</msg>
 <arg>10s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-07-01T17:52:32.185606" elapsed="10.001670"/>
+<status status="PASS" start="2024-07-02T09:36:36.530890" elapsed="10.001399"/>
 </kw>
-<status status="PASS" start="2024-07-01T17:52:32.113799" elapsed="10.074480"/>
+<status status="PASS" start="2024-07-02T09:36:36.289535" elapsed="10.242754"/>
 </kw>
 <kw name="RegistrationPage.Click OK Button" owner="RegistrationPage">
 <kw name="Alert Should Be Present" owner="SeleniumLibrary">
-<msg time="2024-07-01T17:52:42.197250" level="INFO">HANDLE::&lt;class 'NoneType'&gt;::None</msg>
+<msg time="2024-07-02T09:36:46.537275" level="INFO">HANDLE::&lt;class 'NoneType'&gt;::None</msg>
 <doc>Verifies that an alert is present and by default, accepts it.</doc>
-<status status="PASS" start="2024-07-01T17:52:42.195255" elapsed="0.023930"/>
+<status status="PASS" start="2024-07-02T09:36:46.536277" elapsed="0.045875"/>
 </kw>
-<status status="PASS" start="2024-07-01T17:52:42.191265" elapsed="0.028917"/>
+<status status="PASS" start="2024-07-02T09:36:46.534283" elapsed="0.048866"/>
 </kw>
 <kw name="HomePage.Verify Text" owner="HomePage">
 <kw name="Page Should Contain" owner="SeleniumLibrary">
-<msg time="2024-07-01T17:52:42.245113" level="INFO">Current page contains text 'Success! Your details have been submitted successfully.'.</msg>
+<msg time="2024-07-02T09:36:46.687870" level="INFO">Current page contains text 'Success! Your details have been submitted successfully.'.</msg>
 <arg>${thanksfortext}</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<status status="PASS" start="2024-07-01T17:52:42.222177" elapsed="0.023934"/>
+<status status="PASS" start="2024-07-02T09:36:46.585145" elapsed="0.102725"/>
 </kw>
 <arg>Success! Your details have been submitted successfully.</arg>
-<status status="PASS" start="2024-07-01T17:52:42.221180" elapsed="0.024931"/>
+<status status="PASS" start="2024-07-02T09:36:46.584153" elapsed="0.103717"/>
 </kw>
 <kw name="HomePage.Click Home Button" owner="HomePage">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-07-01T17:52:42.247108" level="INFO">Clicking element 'xpath=//a[contains(text(),'Home')]'.</msg>
+<msg time="2024-07-02T09:36:46.692861" level="INFO">Clicking element 'xpath=//a[contains(text(),'Home')]'.</msg>
 <arg>xpath=//a[contains(text(),'Home')]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-07-01T17:52:42.247108" elapsed="5.923500"/>
+<status status="PASS" start="2024-07-02T09:36:46.689863" elapsed="2.423981"/>
 </kw>
-<status status="PASS" start="2024-07-01T17:52:42.246111" elapsed="5.924497"/>
+<status status="PASS" start="2024-07-02T09:36:46.688868" elapsed="2.425969"/>
 </kw>
 <kw name="HomePage.Verify Home Page is Visible" owner="HomePage">
 <kw name="Title Should Be" owner="SeleniumLibrary">
-<msg time="2024-07-01T17:52:48.181578" level="INFO">Page title is 'Automation Exercise'.</msg>
+<msg time="2024-07-02T09:36:49.126805" level="INFO">Page title is 'Automation Exercise'.</msg>
 <arg>${HOMEPAGE_TITLE}</arg>
 <doc>Verifies that the current page title equals ``title``.</doc>
-<status status="PASS" start="2024-07-01T17:52:48.171606" elapsed="0.009972"/>
+<status status="PASS" start="2024-07-02T09:36:49.116833" elapsed="0.009972"/>
 </kw>
-<status status="PASS" start="2024-07-01T17:52:48.171606" elapsed="0.009972"/>
+<status status="PASS" start="2024-07-02T09:36:49.115835" elapsed="0.012966"/>
 </kw>
 <kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<status status="PASS" start="2024-07-01T17:52:48.181578" elapsed="7.004557"/>
+<status status="PASS" start="2024-07-02T09:36:49.129799" elapsed="7.249366"/>
 </kw>
 <doc>Submit the Contact Us form.</doc>
-<status status="PASS" start="2024-07-01T17:51:34.023619" elapsed="81.162516"/>
+<status status="PASS" start="2024-07-02T09:35:32.328805" elapsed="84.052360"/>
 </test>
 <kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<status status="PASS" start="2024-07-01T17:52:55.187923" elapsed="0.000000"/>
+<status status="PASS" start="2024-07-02T09:36:56.389141" elapsed="0.002988"/>
 </kw>
-<status status="PASS" start="2024-07-01T17:51:32.585855" elapsed="82.602068"/>
+<status status="PASS" start="2024-07-02T09:35:31.687521" elapsed="84.705610"/>
 </suite>
 <statistics>
 <total>
@@ -194,24 +194,5 @@
 </suite>
 </statistics>
 <errors>
-</errors>
-</robot>
-0D995]
-	(No symbol) [0x00007FF768AB44D7]
-	(No symbol) [0x00007FF768ACC051]
-	(No symbol) [0x00007FF768AACDD3]
-	(No symbol) [0x00007FF768A7A33B]
-	(No symbol) [0x00007FF768A7AED1]
-	GetHandleVerifier [0x00007FF768F08B1D+3217341]
-	GetHandleVerifier [0x00007FF768F55AE3+3532675]
-	GetHandleVerifier [0x00007FF768F4B0E0+3489152]
-	GetHandleVerifier [0x00007FF768CAE776+750614]
-	(No symbol) [0x00007FF768B8375F]
-	(No symbol) [0x00007FF768B7EB14]
-	(No symbol) [0x00007FF768B7ECA2]
-	(No symbol) [0x00007FF768B6E16F]
-	BaseThreadInitThunk [0x00007FFB35907344+20]
-	RtlUserThreadStart [0x00007FFB36F3CC91+33]
-</msg>
 </errors>
 </robot>
